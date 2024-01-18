@@ -27,7 +27,8 @@ static void ft_iter(int (*fn_ptr)(int), int *array, size_t size) {
 	}
 }
 
-int main(void) {
+int main(void)
+{
 	int array[SIZE] = { 1, -3, 4, 5, -8, 0 };
 	ft_iter(&ft_abs, array, SIZE);
 	ft_iter(&ft_double, array, SIZE);
